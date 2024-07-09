@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Envie d'evasion !</h1>
+        <nav class="crumbs">
+            <ul>
+                <li><a href="./index.html">Acceuil</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./gallerie.html">Gallerie</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        </nav>
+    </header>
+    <section>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>contacter nous</legend>
+                <div>
+                    <label for="input_nom">Nom <span>*</span></label>
+                    <input id="input_nom" type="text" placeholder="Ex :Richard" minlength="2" maxlength="20" required><br>
+                </div>
+                <div>
+                    <label for="input_mail">E-mail <span>*</span></label>
+                    <input id="input_mail" type="email" placeholder="Ex: nom@FAI.com"required><br>
+                </div>
+                <div>
+                    <label for="input_commit">Laisser un commentaire</label><br>
+                    <textarea id="input_commit" name="commentaire" placeholder="Ce site est vraiment magnifique..." rows="10" cols="70" ></textarea><br>
+                </div>
+                <div>
+                    <label for="input_ar">Envoyer une copie par E-mail</label>
+                    <input id="input_ar" type="checkbox" checked><br>
+                </div>
+                <div>
+                    <input type="submit" value="valider" class="bouton">
+                    <input type="reset" value="Réinitialiser" class="bouton">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="https://www.redbull.com/fr-fr">Redbull</a></li>
+            <li><a href="https://www.pinkbike.com/">Pinkbike</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
